@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav a
+{
+	font-size: 20px;
+	font-weight: 500;
+}
+ 
+.navbar-light .navbar-brand
+{
+	font-size: 25px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color: white;	
+}
+
+.navbar-nav
+{
+	text-align: center;
+}
+
+.nav-link
+{
+	padding: .2rem 1rem;
+}
+.nav-link .active,.nav-link:focus, .navbar-light .navbar-nav .nav-link:hover
+{
+	color: white;
+}
+
+.navbar
+{
+	background: rgba(0,0,0,.5);
+	
+}
+
+.carousel-item
+{
+	height: 100vh;
+	min-height: 300px;
+	background-size: cover;
+	
+}
+
+
+.carousel-caption a
+{
+	background: #281409;
+	padding: 10px 10px;
+	color:#FD6600;
+	margin-bottom: 200px;
+	display: inline-block;
+	
+}
+
+.carousel-caption a:hover
+{
+	color:#FD6600;
+	background-color:#281409;
+}
+
+.carousel-caption
+{
+	top: 450px;
+	margin-right: 400px;
+}
+
+
+.content
+{
+	background-size: cover;
+	height: 100%;
+	background-color:black;
+}
+
+.pic
+{
+	text-align: center;
+	background-color: black;
+	padding: 70px;
+}
+
+.pic h3
+{
+	font-size: 45px;
+	margin-bottom: 55px;
+	color:#FD6600;
+}
+
+.pic .card
+{
+	border: 1px solid;
+	
+}
+
+.pic .card-body
+{
+	padding: 1.25px  ;
+	background-color:black;
+	
+}
+
+.pic .card-body .card-title
+{
+	color:#FD6600;
+	font-weight: 400;
+}
+
+.pic .btn-primary
+{
+	color:#FD6600;
+	background-color: black;
+	border-color:#FD6600;
+	
+}
+
+.pic .btn-primary:hover
+{
+	color:#FD6600;
+	background-color:#281409;
+	border-color:#281409;
+
+}
+
+.social-media ul
+{
+	display: inline-block;
+
+}
+
+.social-media ul li
+{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.social-media ul li a
+{
+	font-size: 27px;
+	color: white;
+	letter-spacing: 0.1em;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
